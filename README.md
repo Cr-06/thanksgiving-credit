@@ -1,1 +1,1 @@
-# thanksgiving-credit
+Ignore the name. This respitory will actually be about the Odin Project's Recipe Project in the HTML section of foundations. I will be wrapping up all the HTML learned thus far and using it in this project.

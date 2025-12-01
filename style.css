@@ -1,0 +1,23 @@
+body {
+    background-color: wheat;
+}
+
+h1 {
+display: flex;
+justify-content: center;
+font-size: xxx-large;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 10vh;
+    font-size: x-large;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
