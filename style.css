@@ -25,7 +25,7 @@ body {
     font-size: x-large;
 }
 
-a {
+.links>a{
     text-decoration: none;
     color: black;
     background-color: brown;
@@ -35,16 +35,67 @@ a {
     padding-right: 1vh;
     padding-top: .5%;
     padding-bottom: .5%;
-    width: 20vw;
+    width: 30vw;
     text-align: center;
 }
 
-a:hover {
+.links>a:hover {
     background-color: #ff7e5f;
 }
 
-a:active {
+.links>a:active {
     transform: scale(0.9);
     transition: 350ms;
 }
 
+#description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1vw;
+    background-color: #ff7e5f;
+    border-radius: 3vw;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header>a {
+    background-color: brown;
+    width: 50vw;
+    text-align: center;
+    border-radius: 10vw;
+    text-decoration: none;
+    color: black;
+    font-size: xx-large;
+    justify-content: center;
+    padding: 1vh;
+}
+
+header>a:hover {
+    background-color: #ff7e5f;
+}
+
+header>a:active {
+    transform: scale(0.9);
+    transition: 350ms;
+}
+
+img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    width: 30vw;
+    border-radius: 2vw;
+}
