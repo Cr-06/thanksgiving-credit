@@ -12,8 +12,9 @@ body {
     justify-content: center;
     background-color: brown;
     width: 50vw;
-    border-radius: 10%;
+    border-radius: 10vh;
     font-size: xxx-large;
+    padding: 1vw;
 }
 
 .links {
@@ -28,11 +29,22 @@ a {
     text-decoration: none;
     color: black;
     background-color: brown;
-    border-radius: 10%;
+    border-radius: 10vh;
     margin: 8vh;
     padding-left: 1vh;
     padding-right: 1vh;
     padding-top: .5%;
     padding-bottom: .5%;
+    width: 20vw;
+    text-align: center;
+}
+
+a:hover {
+    background-color: #ff7e5f;
+}
+
+a:active {
+    transform: scale(0.9);
+    transition: 350ms;
 }
 
